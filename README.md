@@ -35,9 +35,6 @@ Usually, our git projects have a folder `data` that is .gitignored, and contains
 
 We should do better at describing our datasets. The datapackage format offers a standardised way to do this. It doesn't take too much extra effort using [frictionless](https://framework.frictionlessdata.io/), see `scripts/write_data.py`.
 
-## Open Metadata
+## Catalogueing data
 
-We could use [this](https://open-metadata.org) to automatically build a catalogue of all the data in our repositories that is described by a datapackage.
-
-## Open questions
-- How to set up dvc cache on our shared storage, one folder per repo? Or everything in one folder?
+If we document datapackages with frictionless, we could use a tool to create a catalogue that makes the data discoverable.
