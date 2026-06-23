@@ -1,0 +1,4 @@
+[core]
+    remote = pik-project-storage
+['remote "pik-project-storage"']
+    url = ssh://ts01.pik-potsdam.de/data/rd5/ecs/dvc_global_cache

@@ -1,0 +1,12 @@
+[project]
+name = "dvc-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dvc>=3.67.1",
+    "dvc-ssh>=4.3.0",
+    "frictionless[pandas]>=5.19.0",
+    "pandas>=3.0.3",
+]
