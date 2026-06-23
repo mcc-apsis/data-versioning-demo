@@ -1,7 +1,7 @@
 from frictionless import Package
 
 def main():
-    package = Package("data/datapackage.json")
+    package = Package("datapackage.json")
 
     resource = package.get_resource("data")
 

@@ -1,0 +1,20 @@
+{
+  "name": "dvc-demo-data",
+  "title": "DVC Demo Data",
+  "description": "Demo data to show how DVC and frictionless can make our lives easier",
+  "keywords": [
+    "demo",
+    "tabular"
+  ],
+  "resources": [
+    {
+      "name": "data",
+      "type": "table",
+      "description": "Main data table containing mock data.",
+      "path": "data/data.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}

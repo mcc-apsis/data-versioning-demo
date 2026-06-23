@@ -16,15 +16,16 @@ def main():
         name="dvc-demo-data",
         title="DVC Demo Data",
         description="Demo data to show how DVC and frictionless can make our lives easier",
+        keywords=["demo", "tabular"],
         resources=[
-            Resource(path="data.csv")
+            Resource(path="data/data.csv")
         ]
     )
 
     resource = package.get_resource("data")
     resource.description = "Main data table containing mock data."
 
-    package.to_json("data/datapackage.json")
+    package.to_json("datapackage.json")
 
 
 if __name__=="__main__":
