@@ -44,6 +44,11 @@ dvc gc -waT
 
 # Push to remote
 dvc push
+
+# Turn off analytics
+dvc config core.analytics false
+# Turn off automatic .gitignore files
+dvc config core.no_scm true
 ```
 
 ## Frictionless Data
